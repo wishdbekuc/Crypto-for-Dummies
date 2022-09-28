@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html {
+    margin: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    border: 2px solid green;
+    background-color: #182332;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 72px;
+    background-color: #182332;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    margin: 0;
+
+}
+
+.header img {
+    width: 50px;
+    height: auto;
+    
+}
+.header .left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.header .right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 16px;
+    gap: 32px;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+a {
+    color: white; 
+    text-decoration: none; /* remove underline */
+}
+
+.intro {
+    background-image: url("./images/abstract_wireframe_landscape_background_design_3003.jpeg"); /* add background image */
+    background-repeat: no-repeat; /* prevents image from repeating */ 
+    background-size: cover; /* asks image to resize to cover whole element */
+    padding: 64px 160px;
+    margin: 0;
+    background-attachment: fixed; /* gives that moveable but fixed background look idk how to explain */
+    background-position: center;
+    
+}
+
+.intro-box {
+    background-color: rgba(0, 0, 0, 0.65);
+    border-radius: 32px; /* creates rounded corners */
+    box-shadow: 0 0 2em rgb(13, 6, 37); /* shadow around element */
+    color: white;
+    display: flex;
+    padding: 32px;
+    gap: 32px;
+    font-size: 18px;
+    align-items: flex-start;
+}
+
+.intro-box .left .title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.intro-box .left .explanation {
+    font-size: 15px;
+}
+
+.intro-box .left .explanation .blockchain{
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+}
+
+.intro-box img {
+    width: 400px;
+    height: auto;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    padding: 48px;
+    margin: 0;
+    background-color: #182332;
+}
+
+.middle .top {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.middle img {
+    width: 300px;
+    height: 170px;
+    box-shadow: 0 0 2em rgb(3, 0, 14);
+}
+.middle .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap:24px;
+}
+
+.middle .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 16px;
+}
+
+.middle .card a {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.quotes {
+    background-image: url('./images/doge.jpeg');
+    background-repeat: no-repeat; /* prevents image from repeating */ 
+    background-size: cover; /* asks image to resize to cover whole element */
+    background-position-x: center;
+    background-position-y: 10%;
+    background-attachment: fixed;
+    padding: 150px 100px;
+}
+
+.quotes .quote-container {
+    background-color: rgba(242, 239, 239, 0.65);
+    border-radius: 32px; /* creates rounded corners */
+    box-shadow: 0 0 2em rgb(232, 232, 233); /* shadow around element */ 
+    padding: 80px 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 64px;
+}
+
+.quotes .quote1, .quote2 {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.quote1 {
+    align-self: flex-start;
+}
+
+.quote2 {
+    align-self: flex-end;
+}
+
+.footer {
+    height: 108px;
+    background-color: #1F2937;
+    color: white; 
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+* {
+    border: 1px solid red;
+}
